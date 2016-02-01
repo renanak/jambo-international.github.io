@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-4">
+<strong>Jambo International Inc.</strong><br>
+709 West Jefferson St.<br>Louisville, Ky. 40202<br>
+<a href="mailto:contact@jambointernational.org">contact@jambointernational.org</a>
+      </div>
+      <div class="col-sm-4">
+      </div>
+      <div class="col-sm-4">
+        <nav ><ul>
+          {% for my_page in site.pages %}
+          {% if my_page.title %}
+            <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul></nav>
+      </div>
+    </div>
+
+  </div>
+</footer>
+

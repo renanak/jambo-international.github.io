@@ -1,0 +1,55 @@
+
+
+$grapefruit: #ed5565;
+$grapefruit2: #DA4453;
+//$bittersweet: #FC6E51;
+//$bittersweet: #e84b33;
+//$bittersweet2: #e9573f;
+$bittersweet: #d05126;
+$bittersweet2: #99320f;
+//$sunflower: #ffce54;
+$sunflower: #f79a00;
+//$sunflower2: #f6bb42;
+$sunflower2: #a86900;
+$grass0: #D7E9C3;
+//$grass2: #8cc152;
+$grass: #619405;
+$grass2: #3e6000;
+$mint: #48cfad;
+$mint2: #37bc9b;
+$aqua: #4fc1e9;
+$aqua2: #3bafda;
+$jeans: #5d9cec;
+$jeans2: #4a89dc;
+$lavender: #ac92ec;
+$lavender2: #967adc;
+$rose: #ec87c0;
+$rose2: #d770ad;
+$lightgray: #f5f7fa;
+$lightgray2: #e6e9ed;
+$mediumgray: #ccd1d9;
+$mediumgray2: #aab2bd;
+$darkgray: #656d78;
+$darkgray2: #434a54;
+
+$body-background: #cfd1a8;
+$link-color: $bittersweet;
+$link-hover-color: $bittersweet2;
+
+
+$bootstrap-sass-asset-helper: false !default;
+$headerfont: Salsa;
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         darken($bittersweet, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+

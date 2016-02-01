@@ -1,0 +1,44 @@
+
+.home {
+  .navbar {
+    background: rgba(white, 0.95);
+    border-bottom: 1px solid white;
+  }
+  .header-padding {
+    display: none;
+  }
+  .text-inline {
+    display: inline-block;
+    height: 1em;
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-right: 0.5em;
+  }
+}
+
+.illustration {
+  text-align: center;
+  img {
+    width: auto;
+    max-width: 80%;
+    border: 5px solid white;
+    -webkit-filter: sepia(1) hue-rotate(20deg);
+    filter: sepia(1) hue-rotate(20deg);
+  }
+}
+
+.tint-green {
+  color: white;
+  background-color: $grass;
+}
+
+.tint-yellow {
+  background-color: $sunflower;
+  color: white;
+}
+
+.tint-white {
+  background-color: white;
+  color: black;
+}
