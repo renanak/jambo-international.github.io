@@ -19,6 +19,7 @@
             <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
           {% endif %}
           {% endfor %}
+          <li><a href="#">{% include donationbutton.html btnclass="btn-xs" %}</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->
