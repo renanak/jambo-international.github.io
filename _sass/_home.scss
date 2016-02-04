@@ -4,6 +4,10 @@
     color: white;
     text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 5px 10px rgba(0,0,0,0.2);
   }
+  h2 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
   .navbar {
     background: rgba(white, 0.95);
     border-bottom: 1px solid white;
@@ -22,14 +26,20 @@
 }
 
 .illustration {
-  text-align: center;
+  background: white;
+  padding: 12px;
   img {
-    width: auto;
-    max-width: 80%;
-    border: 5px solid white;
-    -webkit-filter: sepia(1) hue-rotate(20deg);
-    filter: sepia(1) hue-rotate(20deg);
+    width: 100%;
+    max-width: 100%;
   }
+  p {
+    margin-top: 16px;
+  }
+}
+
+.sepia {
+  -webkit-filter: sepia(1) hue-rotate(20deg);
+  filter: sepia(1) hue-rotate(20deg);  
 }
 
 .tint-green {
