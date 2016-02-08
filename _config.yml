@@ -9,8 +9,8 @@
 title: Jambo International
 email: contact@jambointernational.org
 description: Jambo International Inc.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jambo-international.github.io" # the base hostname & protocol for your site
+baseurl: "/npo" # the subpath of your site, e.g. /blog
+url: "http://jambointernational.org" # the base hostname & protocol for your site
 twitter_username: jamboleader
 
 # Build settings
