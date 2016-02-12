@@ -6,7 +6,7 @@ layout: default
   <div class="tint">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-xs-9 col-sm-8 col-md-7 col-lg-6">
         <div class="motto">
           <h1>{{ page.motto }}</h1>
           <p>{{ content }}</p>
@@ -20,11 +20,11 @@ layout: default
 <section class="mission tint-green">
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-xs-4 col-md-3 col-lg-2">
       <h2>MISSION</h2>
     </div>
-    <div class="col-sm-8">
-      <h4>Holding Nature Activities and Social Events to Support Worthy Environmental/Human Development Groups While Building Consciousness</h4>
+    <div class="col-xs-8 col-md-9 col-lg-8">
+      <h4>Holding Nature Activities and Social Events to Support Worthy Environmental/Human Development Groups While Building a Consciousness of Caring</h4>
     </div>
   </div>
 </div>
@@ -38,18 +38,29 @@ layout: default
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-4">
-      <h3 class="text-center">1</h3>
-      <p>To raise funds for reliable organizations which are serving both natural preservation / restoration and human development</p>
+    <div class="col-sm-4 col-xs-12"><div class="illustration">
+      <div class="row">
+        <div class="col-xs-6 col-sm-12"> <img src="{{site.baseurl}}/images/chimp.jpg"></div>
+        <div class="col-xs-6 col-sm-12">
+          <h4>To raise funds for reliable organizations which are serving both natural preservation / restoration and human development</h4>
+        </div>
+      </div>
+    </div></div>
+    <div class="col-sm-4 col-xs-12"><div class="illustration">
+      <div class="row">
+      <div class="col-xs-6 col-sm-12"> <img src="{{site.baseurl}}/images/volunteer.jpg"></div>
+      <div class="col-xs-6 col-sm-12">
+        <h4>To provide activities, especially those which give people more exposure to and appreciation for the natural environment, to raise funds or to volunteer for environmental (and/or human) betterment</h4>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h3 class="text-center">2</h3>
-      <p>To provide activities, especially those which give people more exposure to and appreciation for the natural environment, to raise funds or to volunteer for environmental (and/or human) betterment</p>
-    </div>
-    <div class="col-sm-4">
-      <h3 class="text-center">3</h3>
-      <p>To serve as a liaison between the do-good organizations JAMBO supports and common folk, providing opportunities for them to meet and get more involved with each other.</p>
-    </div>
+    </div></div>
+    <div class="col-sm-4 col-xs-12"><div class="illustration">
+    <div class="row">
+      <div class="col-xs-6 col-sm-12"><img src="{{site.baseurl}}/images/earthday.jpg"></div>
+      <div class="col-xs-6 col-sm-12">
+      <h4>To serve as a liaison between the do-good organizations JAMBO supports and common folk, providing opportunities for them to meet and get more involved with each other.</h4>
+      </div>
+    </div></div></div>
   </div>
   <div class="row">
     <div class="col-sm-12">
@@ -62,25 +73,29 @@ layout: default
 <section class="donations tint-yellow">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 illustration">
-        <img src="/images/orphan-1139042_1280.jpg" alt="">
+      <div class="col-sm-6 col-md-4">
+        <div class="illustration">
+        <img src="{{site.baseurl}}/images/elephants.jpg" alt="">
       </div>
-      <div class="col-sm-6">
-      <h1>Donations</h1>
+      </div>
+      <div class="col-sm-6 col-md-8 col-lg-6">
+      <h2>Donations</h2>
 
       <p>Donations to JAMBO INTERNATIONAL INC may be made here:</p>
 
       <div class="text-center">
-        {% include donationbutton.html %}
+        {% include donationbutton.html btnclass="btn-lg" %}
       </div>
 
-      <p>These donations will be used to:</p>
+      <h4>These donations will be used to:</h4>
 
       <ul>
         <li>Support the spread of the JAMBO concept as mentioned above through the website and media.</li>
         <li>Provide direct assistance through workshops, personal consultation, and correspondence to individuals and groups who are seriously considering setting up JAMBO-like programs.</li>
         <li>Financial support for the organizations which meet the JAMBO criteria.</li>
       </ul>
+    
+      <p>Donations from the US are 100% tax-deductible.</p>
 
       <p>Supporters are welcome to specify how they would like their donations to be used (i.e. 100% for program development).</p>
     </div>
@@ -94,17 +109,23 @@ layout: default
     <div class="row">
       <div class="col-sm-12">
         <h2>Why donate?</h2>
-        <p>There are 3 good reasons why people want to support JAMBO International Inc.<p>
-       <h3 class="text-inline">1</h3>
-       <p>JAMBO researches organizations and gives to those which meet the following criteria:</p>
-       <ul>
-        <li>Strive to work towards simultaneously bettering both the natural environment and the social environment (especially empowering the “disadvantaged”), with the belief that these 2 issues cannot be dealt with separately if we wish to move towards a sustainable world</li>
-        <li>Have a high degree of transparency and financial integrity (understood through personal visitations or because of receiving high marks by independent analysts like Charity Navigator)</li>
-        </ul>
-        <h3 class="text-inline">2</h3>
-        <p>JAMBO International Inc is inspired and is being helped by a very successful model - JAMBO International Japan.  JAMBO Japan has been active since 1996, holding regular activities which get people to get in touch with nature (mainly through hikes), do environmental projects or volunteer for the social good.  It raises funds through its projects.  In this way, it supports NPOs  while getting people to actively work in and more greatly appreciate the natural environment.  By getting into nature and appreciating its wonders, people come to love it more, and it is only in the process of  that we come to deeply treasure and devote our energy to its preservation.  Many of the funds raised herein would not be coming in without JAMBO’s efforts.</p>
-        <h3 class="text-inline">3</h3>
-        <p>In conjunction with JAMBO Japan, JAMBO International Inc is working to develop JAMBO groups around the US (and throughout the world) that are based on a similar model.</p>
+        <h4>There are 3 good reasons why people want to support JAMBO International Inc.</h4>
+        <div class="indent-number">
+          <h3>1.</h3>
+          <p>JAMBO researches organizations and gives to those which meet the following criteria:</p>
+          <ul>
+            <li>Strive to work towards simultaneously bettering both the natural environment and the social environment (especially empowering the “disadvantaged”), with the belief that these 2 issues cannot be dealt with separately if we wish to move towards a sustainable world</li>
+            <li>Have a high degree of transparency and financial integrity (understood through personal visitations or because of receiving high marks by independent analysts like Charity Navigator)</li>
+          </ul>
+        </div>
+        <div class="indent-number">
+          <h3>2.</h3>
+          <p>JAMBO International Inc is inspired and is being helped by a very successful model - JAMBO International Japan.  JAMBO Japan has been active since 1996, holding regular activities which get people to get in touch with nature (mainly through hikes), do environmental projects or volunteer for the social good.  It raises funds through its projects.  In this way, it supports NPOs  while getting people to actively work in and more greatly appreciate the natural environment.  By getting into nature and appreciating its wonders, people come to love it more, and it is only in the process of  that we come to deeply treasure and devote our energy to its preservation.  Many of the funds raised herein would not be coming in without JAMBO’s efforts.</p>
+        </div>
+        <div class="indent-number">
+          <h3>3.</h3>
+          <p>In conjunction with JAMBO Japan, JAMBO International Inc is working to develop JAMBO groups around the US (and throughout the world) that are based on a similar model.</p>
+        </div>
      </div>
     </div>
   </div>
